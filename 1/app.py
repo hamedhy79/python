@@ -100,25 +100,41 @@
 #     print("not valid")
 
 #8
-import re
-p = input("Enter Your Password: ")
+# import re
+# p = input("Enter Your Password: ")
 
-x = True
-while x:
-    if (len(p)<6 or len(p)>16):
-        break
-    elif not re.search("[a-z]", p):
-        break
-    elif not re.search("[A-Z]", p):
-        break
-    elif not re.search("[0-9]", p):
-        break
-    elif not re.search("[!@#$]", p):
-        break
-    else:
-        print("Not Valid")
-        x = False
-        break
-if x:
-    print("Your Password Is Valid")
+# x = True
+# while x:
+#     if (len(p)<6 or len(p)>16):
+#         break
+#     elif not re.search("[a-z]", p):
+#         break
+#     elif not re.search("[A-Z]", p):
+#         break
+#     elif not re.search("[0-9]", p):
+#         break
+#     elif not re.search("[!@#$]", p):
+#         break
+#     else:
+#         print("Your Password Is Valid")
+#         x = False
+#         break
+# if x:
+#     print("invalid Password")
 
+
+
+#9
+# myfanc = lambda x : x * 2
+# print(myfanc)
+
+# listA = [1, 10, 15, 50, 68, 23, 18]
+
+# # print(list(map(lambda x : 'big' if x>15 else 'small', listA)))
+# print(list(filter(lambda x : x%2 == 0, listA)))
+
+
+
+safe = [1, 15, 40, 25, 60, 44, 95, 64]
+
+print(list(map(lambda x : x** 2, safe)))
