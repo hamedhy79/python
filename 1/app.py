@@ -133,8 +133,20 @@
 # # print(list(map(lambda x : 'big' if x>15 else 'small', listA)))
 # print(list(filter(lambda x : x%2 == 0, listA)))
 
+# safe = [1, 15, 40, 25, 60, 44, 95, 64]
+
+# print(list(map(lambda x : x** 2, safe)))
 
 
-safe = [1, 15, 40, 25, 60, 44, 95, 64]
 
-print(list(map(lambda x : x** 2, safe)))
+
+
+#10
+def first(n):
+    num = 0
+    while(num<n):
+        yield num
+        num += 1
+        
+for i in first(10):
+    print(i * 2)
