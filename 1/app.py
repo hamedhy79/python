@@ -138,15 +138,50 @@
 # print(list(map(lambda x : x** 2, safe)))
 
 
+# number10
+# def first(n):
+#     num = 0
+#     while(num<n):
+#         yield num
+#         num += 1
+    
+# for i in first(10):
+#     print(i * 2)
+
+#number11
+# x = 5
+# my_func = lambda x : x * 2
+# print(my_func(x))  
+# __________________________________
+# lista = [2, 3, 10, 14]
+# print(list(map(lambda a : a ** 2 + 5, lista)))
+# __________________________________
+
+
+#replace char in str
+# x = 'hello'
+# print(x.replace('h', 'm'))
+
+
+#binary decimal hex
+# from decimal import Decimal
+# #for divide
+# from fractions import Fraction
+# print(Decimal('0.1') + Decimal('0.3'))
+# # print(Decimal(0.1) + Decimal(0.3))
+# print(Fraction(0.75))
 
 
 
-#10
-def first(n):
-    num = 0
-    while(num<n):
-        yield num
-        num += 1
-        
-for i in first(10):
-    print(i * 2)
+#complexNo Numberic
+#muhomi&real
+# x = 2 + 3j
+# print(x.real)
+# print(x.imag)
+
+
+x = 'ali'
+y = {'ali', 'hasan'}
+print(x not in y)
+
+
