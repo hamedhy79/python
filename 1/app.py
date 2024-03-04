@@ -172,16 +172,38 @@
 # print(Fraction(0.75))
 
 
-
+#-------method in python-------
 #complexNo Numberic
 #muhomi&real
 # x = 2 + 3j
 # print(x.real)
 # print(x.imag)
 
-
-x = 'ali'
+x = 'ali\'s dad'
 y = {'ali', 'hasan'}
-print(x not in y)
+# print(x not in y)
+# print(x.startswith('a'))#start with a char -->True
+# print(x.endswith('i'))#end with i char -->False
+# print(x.find('l'))#search in str 
+# print(x.index('l'))
+# print(x.isnumeric())#sign str exists number string inside it
+# print(x.split('a'))#delete char from list
+# print(x.strip('a'))#delete char from list
+# print(x.strip(r'i'))#delete char from list right side. for left (l'')
+# print(x.capitalize())#upper first char
 
+#unicode ascii
+# a = 'i'
+# b = ("char:\u03C0")#unicode
+# print(ord(a))#this func for ascii char
+# print(b)
+
+
+#types of format
+name = 'hasan'
+age = 23
+degree = 'bachelor'
+print('your name is %s and age is %i years old also your degree is %s' %(name,age, degree))
+print('your name is {} and age is {} years old also your degree is {}'.format(name,age, degree))
+print(f'your name is {name} and age is {age} years old also your degree is {degree}')
 
